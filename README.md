@@ -3,7 +3,7 @@
 
 This project trains a classifier to distinguish Autism Spectrum Disorder (ASD) cases from typical controls using structural MRI features from the [ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/) (Autism Brain Imaging Data Exchange) dataset.
 
-A report is also available : `report.pdf`.
+A report is also available : [report.pdf](https://github.com/brainhack-school2026/laref_project/blob/main/report.pdf).
 
 
 ## Project structure
@@ -11,13 +11,13 @@ A report is also available : `report.pdf`.
 ```
 .
 ├── abide -> /mnt/abide/abide/data/Projects/ABIDE_Initiative   # symlink to mounted S3 data
-├── misc/                                                       # phenotypic CSV and other supporting files
+├── misc/                                                       
 ├── mount_data.sh                                               # mounts the ABIDE S3 bucket
-├── report.pdf                                                  # write-up of methodology and results
+├── report.pdf                                                 
 ├── requirements.txt
 └── src/
-    ├── main.py            # CLI entry point
-    ├── data_import.py     # fetches/imports raw subject data
+    ├── main.py            #  entry point
+    ├── data_import.py     # imports raw subject data
     ├── data_handler.py     # loads, harmonizes, and prepares subject data
     ├── classifier.py       # model definition
     ├── train.py            # training loop
