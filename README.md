@@ -3,7 +3,7 @@
 
 This project trains a classifier to distinguish Autism Spectrum Disorder (ASD) cases from typical controls using structural MRI features from the [ABIDE](http://fcon_1000.projects.nitrc.org/indi/abide/) (Autism Brain Imaging Data Exchange) dataset.
 
-A report is also available : [report.pdf](https://github.com/brainhack-school2026/laref_project/blob/main/report.pdf).
+A report containing the aims of this project and results associated with it is available here : [report.pdf](https://github.com/brainhack-school2026/laref_project/blob/main/report.pdf).
 
 
 ## Project structure
